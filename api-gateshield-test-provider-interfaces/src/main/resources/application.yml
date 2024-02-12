@@ -1,0 +1,18 @@
+server:
+  port: 8091
+
+dubbo:
+  application:
+    name: api-gateshield-test
+    version: 1.0.0
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    timeout: 30000
+  protocol:
+    name: dubbo
+    port: 20881
+  config-center:
+    timeout: 30000
+  scan:
+    #    base-packages: cn.bugstack.gateway.rpc
+    base-packages: com.yyl.gateshield.rpc
