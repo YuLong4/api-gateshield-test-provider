@@ -14,5 +14,12 @@ dubbo:
   config-center:
     timeout: 30000
   scan:
-    #    base-packages: cn.bugstack.gateway.rpc
     base-packages: com.yyl.gateshield.rpc
+
+api-gateshield-sdk:
+  address: http://localhost:8001
+  system-id: api-gateshield-test-provider
+  system-name: 网关sdk测试工程
+  system-registry: zookeeper://192.168.31.68:2181
+
+

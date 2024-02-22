@@ -68,9 +68,9 @@
         </dependency>
         <!-- 服务注册组件，前面章节不涉及到上报服务，需要把以下配置注释掉 ApiProducerClazz、ApiProducerMethod 去掉。-->
         <dependency>
-            <groupId>cn.bugstack.gateway</groupId>
-            <artifactId>api-gateway-sdk-02</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>com.yyl.gateshield</groupId>
+            <artifactId>api-gateshield-sdk</artifactId>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 
